@@ -1,0 +1,108 @@
+0b2fc1b7-ff43-4082-ba9e-fcbfe9ffd215:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 860
+    mode:
+    - access
+    voice:
+      vlan: 867
+0ed8fa60-3abc-4cf2-92d7-951f17fee33c: {}
+1200a69f-8db3-40b1-9c1d-f4706c25cdee:
+  ip:
+    address:
+      negate: true
+  vrf: mgmtVrf
+14e04a31-5b69-465c-a368-c1adeff5f150:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 267
+    mode:
+    - trunk
+    trunk:
+      allowed_vlans:
+        vlans: 700,714,742,743
+      native_vlan: 700
+    voice:
+      vlan: 867
+21103652-0188-434f-bd89-55c5c4be7a44:
+  switchport:
+    mode:
+    - trunk
+    present: true
+    trunk:
+      allowed_vlans:
+        vlans: 1,2,5,267,300,700,714,741-743,860,867
+      native_vlan: 5
+311de07f-418b-4c9f-bae2-7dd5a3554b26:
+  ip:
+    address:
+      negate: true
+  shutdown: true
+65acb395-6f3a-41b0-83bb-2c12914c02df:
+  ip:
+    address:
+      negate: true
+6999c783-0757-4e62-b75b-2fb0b5f2018a:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 267
+    mode:
+    - access
+    voice:
+      vlan: 867
+6c506ba5-c794-46e1-8a37-073ecce887b9:
+  service_policies:
+  - direction: input
+    name: company-user-access-450x
+  - direction: output
+    name: company-user-access-dbl
+  spanning-tree:
+    bpduguard: true
+    portfast: true
+  switchport:
+    access:
+      vlan: 860
+    mode:
+    - access
+985c7787-3b9f-4d3a-9d6d-49fa77c704cd:
+  channel_group: 24
+  channel_group_mode:
+  - active
+  switchport:
+    mode:
+    - trunk
+    trunk:
+      allowed_vlans:
+        vlans: 1,2,5,267,300,700,714,741-743,860,867
+      native_vlan: 5
+fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d:
+  shutdown: true
+  switchport:
+    access:
+      vlan: 700
+    mode:
+    - access

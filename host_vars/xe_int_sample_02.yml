@@ -1,0 +1,818 @@
+interfaces:
+  FastEthernet1:
+    inherit_from: 1200a69f-8db3-40b1-9c1d-f4706c25cdee
+    name: FastEthernet1
+  GigabitEthernet1/1:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/1
+  GigabitEthernet1/10:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/10
+  GigabitEthernet1/11:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/11
+  GigabitEthernet1/12:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/12
+  GigabitEthernet1/13:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/13
+  GigabitEthernet1/14:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/14
+  GigabitEthernet1/15:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/15
+  GigabitEthernet1/16:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/16
+  GigabitEthernet1/17:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/17
+  GigabitEthernet1/18:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/18
+  GigabitEthernet1/19:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/19
+  GigabitEthernet1/2:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/2
+  GigabitEthernet1/20:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/20
+  GigabitEthernet1/21:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/21
+  GigabitEthernet1/22:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/22
+  GigabitEthernet1/23:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/23
+  GigabitEthernet1/24:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/24
+  GigabitEthernet1/25:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/25
+  GigabitEthernet1/26:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/26
+  GigabitEthernet1/27:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/27
+  GigabitEthernet1/28:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/28
+  GigabitEthernet1/29:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/29
+  GigabitEthernet1/3:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/3
+  GigabitEthernet1/30:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/30
+  GigabitEthernet1/31:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/31
+  GigabitEthernet1/32:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/32
+  GigabitEthernet1/33:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/33
+  GigabitEthernet1/34:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/34
+  GigabitEthernet1/35:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/35
+  GigabitEthernet1/36:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/36
+  GigabitEthernet1/37:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/37
+  GigabitEthernet1/38:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/38
+  GigabitEthernet1/39:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/39
+  GigabitEthernet1/4:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/4
+  GigabitEthernet1/40:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/40
+  GigabitEthernet1/41:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/41
+  GigabitEthernet1/42:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/42
+  GigabitEthernet1/43:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/43
+  GigabitEthernet1/44:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/44
+  GigabitEthernet1/45:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/45
+  GigabitEthernet1/46:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/46
+  GigabitEthernet1/47:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/47
+  GigabitEthernet1/48:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/48
+  GigabitEthernet1/5:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/5
+  GigabitEthernet1/6:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/6
+  GigabitEthernet1/7:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/7
+  GigabitEthernet1/8:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/8
+  GigabitEthernet1/9:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet1/9
+  GigabitEthernet2/1:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/1
+  GigabitEthernet2/10:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/10
+  GigabitEthernet2/11:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/11
+  GigabitEthernet2/12:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/12
+  GigabitEthernet2/13:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/13
+  GigabitEthernet2/14:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/14
+  GigabitEthernet2/15:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/15
+  GigabitEthernet2/16:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/16
+  GigabitEthernet2/17:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/17
+  GigabitEthernet2/18:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/18
+  GigabitEthernet2/19:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/19
+  GigabitEthernet2/2:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/2
+  GigabitEthernet2/20:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/20
+  GigabitEthernet2/21:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/21
+  GigabitEthernet2/22:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/22
+  GigabitEthernet2/23:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/23
+  GigabitEthernet2/24:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/24
+  GigabitEthernet2/25:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/25
+  GigabitEthernet2/26:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/26
+  GigabitEthernet2/27:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/27
+  GigabitEthernet2/28:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/28
+  GigabitEthernet2/29:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/29
+  GigabitEthernet2/3:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/3
+  GigabitEthernet2/30:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/30
+  GigabitEthernet2/31:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/31
+  GigabitEthernet2/32:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/32
+  GigabitEthernet2/33:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/33
+  GigabitEthernet2/34:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/34
+  GigabitEthernet2/35:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/35
+  GigabitEthernet2/36:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/36
+  GigabitEthernet2/37:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/37
+  GigabitEthernet2/38:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/38
+  GigabitEthernet2/39:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/39
+  GigabitEthernet2/4:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/4
+  GigabitEthernet2/40:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/40
+  GigabitEthernet2/41:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/41
+  GigabitEthernet2/42:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/42
+  GigabitEthernet2/43:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/43
+  GigabitEthernet2/44:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/44
+  GigabitEthernet2/45:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/45
+  GigabitEthernet2/46:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/46
+  GigabitEthernet2/47:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/47
+  GigabitEthernet2/48:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/48
+  GigabitEthernet2/5:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/5
+  GigabitEthernet2/6:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/6
+  GigabitEthernet2/7:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/7
+  GigabitEthernet2/8:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/8
+  GigabitEthernet2/9:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet2/9
+  GigabitEthernet5/1:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/1
+  GigabitEthernet5/10:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/10
+  GigabitEthernet5/11:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/11
+  GigabitEthernet5/12:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/12
+  GigabitEthernet5/13:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/13
+  GigabitEthernet5/14:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/14
+  GigabitEthernet5/15:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/15
+  GigabitEthernet5/16:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/16
+  GigabitEthernet5/17:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/17
+  GigabitEthernet5/18:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/18
+  GigabitEthernet5/19:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/19
+  GigabitEthernet5/2:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/2
+  GigabitEthernet5/20:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/20
+  GigabitEthernet5/21:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/21
+  GigabitEthernet5/22:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/22
+  GigabitEthernet5/23:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/23
+  GigabitEthernet5/24:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/24
+  GigabitEthernet5/25:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/25
+  GigabitEthernet5/26:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/26
+  GigabitEthernet5/27:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/27
+  GigabitEthernet5/28:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/28
+  GigabitEthernet5/29:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/29
+  GigabitEthernet5/3:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/3
+  GigabitEthernet5/30:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/30
+  GigabitEthernet5/31:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/31
+  GigabitEthernet5/32:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/32
+  GigabitEthernet5/33:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/33
+  GigabitEthernet5/34:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/34
+  GigabitEthernet5/35:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/35
+  GigabitEthernet5/36:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/36
+  GigabitEthernet5/37:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/37
+  GigabitEthernet5/38:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/38
+  GigabitEthernet5/39:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/39
+  GigabitEthernet5/4:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/4
+  GigabitEthernet5/40:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/40
+  GigabitEthernet5/41:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/41
+  GigabitEthernet5/42:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/42
+  GigabitEthernet5/43:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/43
+  GigabitEthernet5/44:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/44
+  GigabitEthernet5/45:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/45
+  GigabitEthernet5/46:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/46
+  GigabitEthernet5/47:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/47
+  GigabitEthernet5/48:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/48
+  GigabitEthernet5/5:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/5
+  GigabitEthernet5/6:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/6
+  GigabitEthernet5/7:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/7
+  GigabitEthernet5/8:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/8
+  GigabitEthernet5/9:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet5/9
+  GigabitEthernet6/1:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/1
+  GigabitEthernet6/10:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/10
+  GigabitEthernet6/11:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/11
+  GigabitEthernet6/12:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/12
+  GigabitEthernet6/13:
+    description: Ex.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet6/13
+  GigabitEthernet6/14:
+    description: Est.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet6/14
+  GigabitEthernet6/15:
+    description: Neque.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet6/15
+  GigabitEthernet6/16:
+    description: Vitae.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet6/16
+  GigabitEthernet6/17:
+    description: Eligendi.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet6/17
+  GigabitEthernet6/18:
+    description: Tempora.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet6/18
+  GigabitEthernet6/19:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/19
+  GigabitEthernet6/2:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/2
+  GigabitEthernet6/20:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/20
+  GigabitEthernet6/21:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/21
+  GigabitEthernet6/22:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/22
+  GigabitEthernet6/23:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/23
+  GigabitEthernet6/24:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/24
+  GigabitEthernet6/25:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/25
+  GigabitEthernet6/26:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/26
+  GigabitEthernet6/27:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/27
+  GigabitEthernet6/28:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/28
+  GigabitEthernet6/29:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/29
+  GigabitEthernet6/3:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/3
+  GigabitEthernet6/30:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/30
+  GigabitEthernet6/31:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/31
+  GigabitEthernet6/32:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/32
+  GigabitEthernet6/33:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/33
+  GigabitEthernet6/34:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/34
+  GigabitEthernet6/35:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/35
+  GigabitEthernet6/36:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/36
+  GigabitEthernet6/37:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/37
+  GigabitEthernet6/38:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/38
+  GigabitEthernet6/39:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/39
+  GigabitEthernet6/4:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/4
+  GigabitEthernet6/40:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/40
+  GigabitEthernet6/41:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/41
+  GigabitEthernet6/42:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/42
+  GigabitEthernet6/43:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/43
+  GigabitEthernet6/44:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/44
+  GigabitEthernet6/45:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/45
+  GigabitEthernet6/46:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/46
+  GigabitEthernet6/47:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/47
+  GigabitEthernet6/48:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/48
+  GigabitEthernet6/5:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/5
+  GigabitEthernet6/6:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/6
+  GigabitEthernet6/7:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/7
+  GigabitEthernet6/8:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/8
+  GigabitEthernet6/9:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet6/9
+  GigabitEthernet7/1:
+    inherit_from: 0b2fc1b7-ff43-4082-ba9e-fcbfe9ffd215
+    name: GigabitEthernet7/1
+  GigabitEthernet7/10:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/10
+  GigabitEthernet7/11:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/11
+  GigabitEthernet7/12:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/12
+  GigabitEthernet7/13:
+    description: Impedit.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet7/13
+  GigabitEthernet7/14:
+    description: Adipisci.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet7/14
+  GigabitEthernet7/15:
+    description: Eligendi.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet7/15
+  GigabitEthernet7/16:
+    description: Culpa.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet7/16
+  GigabitEthernet7/17:
+    description: Quia.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet7/17
+  GigabitEthernet7/18:
+    description: Dolorem.
+    inherit_from: 14e04a31-5b69-465c-a368-c1adeff5f150
+    name: GigabitEthernet7/18
+  GigabitEthernet7/19:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/19
+  GigabitEthernet7/2:
+    inherit_from: 0b2fc1b7-ff43-4082-ba9e-fcbfe9ffd215
+    name: GigabitEthernet7/2
+  GigabitEthernet7/20:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/20
+  GigabitEthernet7/21:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/21
+  GigabitEthernet7/22:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/22
+  GigabitEthernet7/23:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/23
+  GigabitEthernet7/24:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/24
+  GigabitEthernet7/25:
+    description: Iure.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/25
+  GigabitEthernet7/26:
+    description: Vero.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/26
+  GigabitEthernet7/27:
+    description: Quis.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/27
+  GigabitEthernet7/28:
+    description: Est.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/28
+  GigabitEthernet7/29:
+    description: Qui.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/29
+  GigabitEthernet7/3:
+    inherit_from: 0b2fc1b7-ff43-4082-ba9e-fcbfe9ffd215
+    name: GigabitEthernet7/3
+  GigabitEthernet7/30:
+    description: Ad.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/30
+  GigabitEthernet7/31:
+    description: Quos.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/31
+  GigabitEthernet7/32:
+    description: Ea.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/32
+  GigabitEthernet7/33:
+    description: Eius.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/33
+  GigabitEthernet7/34:
+    description: Illo.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/34
+  GigabitEthernet7/35:
+    description: Iure.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/35
+  GigabitEthernet7/36:
+    description: Aut.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/36
+  GigabitEthernet7/37:
+    description: Ab.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/37
+  GigabitEthernet7/38:
+    description: Est.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/38
+  GigabitEthernet7/39:
+    description: Quod.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/39
+  GigabitEthernet7/4:
+    description: Maxime.
+    inherit_from: 6c506ba5-c794-46e1-8a37-073ecce887b9
+    name: GigabitEthernet7/4
+  GigabitEthernet7/40:
+    description: Rem.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/40
+  GigabitEthernet7/41:
+    description: Sunt.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/41
+  GigabitEthernet7/42:
+    description: Quis.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/42
+  GigabitEthernet7/43:
+    description: Vel.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/43
+  GigabitEthernet7/44:
+    description: At.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/44
+  GigabitEthernet7/45:
+    description: Esse.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/45
+  GigabitEthernet7/46:
+    description: Illo.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/46
+  GigabitEthernet7/47:
+    description: Aut.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/47
+  GigabitEthernet7/48:
+    description: Ut.
+    inherit_from: fb4b333c-0233-463d-b9e8-e4e6f6fe2d0d
+    name: GigabitEthernet7/48
+  GigabitEthernet7/5:
+    description: Quaerat nihil.
+    inherit_from: 0b2fc1b7-ff43-4082-ba9e-fcbfe9ffd215
+    name: GigabitEthernet7/5
+  GigabitEthernet7/6:
+    description: Praesentium.
+    inherit_from: 0b2fc1b7-ff43-4082-ba9e-fcbfe9ffd215
+    name: GigabitEthernet7/6
+  GigabitEthernet7/7:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/7
+  GigabitEthernet7/8:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/8
+  GigabitEthernet7/9:
+    inherit_from: 6999c783-0757-4e62-b75b-2fb0b5f2018a
+    name: GigabitEthernet7/9
+  Loopback0:
+    inherit_from: 65acb395-6f3a-41b0-83bb-2c12914c02df
+    name: Loopback0
+  Port-channel24:
+    description: Quas expedita illo ea dicta.
+    inherit_from: 21103652-0188-434f-bd89-55c5c4be7a44
+    name: Port-channel24
+  TenGigabitEthernet3/1:
+    description: Minus minima quae minus.
+    inherit_from: 985c7787-3b9f-4d3a-9d6d-49fa77c704cd
+    name: TenGigabitEthernet3/1
+  TenGigabitEthernet3/2:
+    description: Odit ipsam fuga quo amet.
+    inherit_from: 985c7787-3b9f-4d3a-9d6d-49fa77c704cd
+    name: TenGigabitEthernet3/2
+  TenGigabitEthernet3/3:
+    inherit_from: 0ed8fa60-3abc-4cf2-92d7-951f17fee33c
+    name: TenGigabitEthernet3/3
+  TenGigabitEthernet3/4:
+    inherit_from: 0ed8fa60-3abc-4cf2-92d7-951f17fee33c
+    name: TenGigabitEthernet3/4
+  TenGigabitEthernet3/5:
+    inherit_from: 0ed8fa60-3abc-4cf2-92d7-951f17fee33c
+    name: TenGigabitEthernet3/5
+  TenGigabitEthernet3/6:
+    inherit_from: 0ed8fa60-3abc-4cf2-92d7-951f17fee33c
+    name: TenGigabitEthernet3/6
+  TenGigabitEthernet3/7:
+    inherit_from: 0ed8fa60-3abc-4cf2-92d7-951f17fee33c
+    name: TenGigabitEthernet3/7
+  TenGigabitEthernet3/8:
+    inherit_from: 0ed8fa60-3abc-4cf2-92d7-951f17fee33c
+    name: TenGigabitEthernet3/8
+  Vlan1:
+    inherit_from: 65acb395-6f3a-41b0-83bb-2c12914c02df
+    name: Vlan1
+  Vlan2:
+    description: Fugiat.
+    ip:
+      address:
+        ipv4_address: 10.0.0.97
+        ipv4_netmask: 255.255.255.128
+    name: Vlan2
+  Vlan267:
+    inherit_from: 311de07f-418b-4c9f-bae2-7dd5a3554b26
+    name: Vlan267
+  Vlan5:
+    description: Voluptates.
+    inherit_from: 311de07f-418b-4c9f-bae2-7dd5a3554b26
+    name: Vlan5
+  Vlan867:
+    description: Aut aperiam.
+    inherit_from: 311de07f-418b-4c9f-bae2-7dd5a3554b26
+    name: Vlan867
+os: cisco_ios-xe
